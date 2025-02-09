@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: weather-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ghj100ghj100
+      MYSQL_DATABASE: weather
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
+    driver: local
