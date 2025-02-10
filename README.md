@@ -37,7 +37,7 @@ Weather App – это приложение для получения актуа
 2. Получите API-ключ в разделе **API keys**.
 3. Укажите ключ в **application.properties**:
    ```properties
-   weather.api.key=4d611e05d71e73675cae696р9096р (пример)
+   weather.api.key=58g965g05d71e73675cae696р9096р (пример)
    ```
 
 ## Описание работы базы данных
